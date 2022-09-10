@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #232f3e;
+  color: white;
+  bottom: 0 !important;
+  left: 0;
+  height: 220px;
+  width: 100%;
+  position: relative;
+  margin-bottom: -100px;
+}
+.footer_1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: gray;
+  padding: 8px;
+}
+.back a {
+  color: white;
+  text-decoration: none;
+}
+.back:hover {
+  text-shadow: 0.5px 0.5px ghostwhite;
+}
+.foot_header {
+  display: flex;
+  font: bold;
+  color: white;
+}
+ul {
+  list-style: none;
+}
